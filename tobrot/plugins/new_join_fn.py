@@ -38,20 +38,20 @@ async def help_message_f(client, message):
     #message_id = 99
     # display the /help
     
-    await message.reply_text("""join this group forr help-- @torrentleechgdrivesupport\n\n And also don't forget to fork this repo: <a href="https://github.com/gautamajay52/TorrentLeech-Gdrive">TorrentLeech-Gdrive</a>""", disable_web_page_preview=True)
+    await message.reply_text("""join this group forr help-- @support\n\n And also don't forget to read : <a href="https://t.me/c/1478049192/1156">please read pinned message</a>""", disable_web_page_preview=True)
 
 
 async def rename_message_f(client, message):
     inline_keyboard = []
     inline_keyboard.append([
         pyrogram.InlineKeyboardButton(
-            text="read this?",
-            url="https://t.me/keralagram/698909"
+            text="join this group",
+            url="https://t.me/joinchat/UH_5VlgZPahc_4MOB4xlQQ"
         )
     ])
     reply_markup = pyrogram.InlineKeyboardMarkup(inline_keyboard)
     await message.reply_text(
-        "please use @renamebot",
+        "please use @otherbots",
         quote=True,
         reply_markup=reply_markup
     )
